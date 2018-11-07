@@ -19,7 +19,7 @@
 
 1. Connect to your linux vps AS ROOT (AWS USERS USE sudo -i TO LOGIN AS ROOT), copy and paste the following line into your VPS.  Double click to highlight the entire line, copy it, and right click into Putty or Shift + Insert to paste.
 ```
-cd && wget https://github.com/nodify-crypto/nfy-mn/blob/master/nfy-mn.sh && bash ./nfy-mn.sh
+cd && sudo apt-get install git -y && sudo git clone https://github.com/nodify-crypto/nfy-mn.git && bash nfy-mn/nfy-mn.sh
 ```
 2. follow the prompts closely and don't mess it up!
 3. Move to Part 3
