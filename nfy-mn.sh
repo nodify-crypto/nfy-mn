@@ -29,8 +29,9 @@ source ~/.bashrc
 
 
 nodify-cli stop > /dev/null 2>&1
-wget https://github.com/nodify-crypto/nfy-mn/raw/master/nodify-cli -O /usr/local/bin/nodifyd
-wget https://github.com/nodify-crypto/nfy-mn/raw/master/nodifyd -O /usr/local/bin/nodify-cli
+sudo apt-get install -y git
+sudo git clone https://github.com/nodify-crypto/nfy-mn.git
+sudo mv nfy-mn/nodify-cli nfy-mn/nodify-cli /usr/local/bin
 chmod +x /usr/local/bin/nodify*
 
 
