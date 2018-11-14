@@ -29,7 +29,7 @@ source ~/.bashrc
 
 
 nodify-cli stop > /dev/null 2>&1
-sudo mv nfy-mn/nodify-cli nfy-mn/nodify-cli /usr/local/bin
+sudo mv nfy-mn/nodify* /usr/local/bin
 chmod +x /usr/local/bin/nodify*
 
 
